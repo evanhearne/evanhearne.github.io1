@@ -16,7 +16,104 @@
 </ul>
 </head>
 <body>
+<!--                    <div> <news-list news-api-url="https://api.uniqueschoolapp.ie/feeds/news?idschool=117&limit=50"></news-list> </div>-->
+<div style="overflow: auto;-webkit-overflow-scrolling:touch;max-width:300px;max-height:500px;"> <news-list news-api-url="https://api.uniqueschoolapp.ie/feeds/news?idschool=117&amp;limit=50">
+        
+        <!-- local DOM goes here -->
+        <iron-ajax auto="" handle-as="json" class="style-scope news-list" hidden=""></iron-ajax>
 
-<iframe style="width: 300px; height: 600px; min-width: 200px; max-width: 100%; min-height: 200px; max-height: 100%; border: none;" src="https://uniqueschoolapp.ie/site/news/school_id/117/width/300/height/500" width="300" height="150"></iframe>
+        <iron-media-query query="(min-width: 600px)" class="style-scope news-list"></iron-media-query>
+
+        <div id="spinner" class="vertical layout center-justified center style-scope news-list" style="margin-top: 50px; display: none;">
+            <paper-spinner class="style-scope news-list x-scope paper-spinner-0" active=""><div id="spinnerContainer" class="active  style-scope paper-spinner"><div class="spinner-layer layer-1 style-scope paper-spinner"><div class="circle-clipper left style-scope paper-spinner"></div><div class="circle-clipper right style-scope paper-spinner"></div></div><div class="spinner-layer layer-2 style-scope paper-spinner"><div class="circle-clipper left style-scope paper-spinner"></div><div class="circle-clipper right style-scope paper-spinner"></div></div><div class="spinner-layer layer-3 style-scope paper-spinner"><div class="circle-clipper left style-scope paper-spinner"></div><div class="circle-clipper right style-scope paper-spinner"></div></div><div class="spinner-layer layer-4 style-scope paper-spinner"><div class="circle-clipper left style-scope paper-spinner"></div><div class="circle-clipper right style-scope paper-spinner"></div></div></div></paper-spinner>
+        </div>
+        
+            <div style="margin:10px;" class="style-scope news-list">
+                <div class="horizontal layout center-justified center style-scope news-list">
+                    <paper-spinner-lite active="" class="style-scope news-list"></paper-spinner-lite>
+                    <paper-card class="flex-1 paperClass style-scope news-list x-scope paper-card-0" aria-label="" elevation="1">
+    
+
+    <div class="header style-scope paper-card">
+      <iron-image class="style-scope paper-card x-scope iron-image-0" hidden="">
+    
+
+    <div id="sizedImgDiv" role="img" class="style-scope iron-image" aria-label="" hidden=""></div>
+    <img id="img" class="style-scope iron-image">
+    <div id="placeholder" class="style-scope iron-image" hidden=""></div>
+  </iron-image>
+      <div class="title-text style-scope paper-card" hidden=""></div>
+    </div>
+
+    
+                        <div class="card-content-header style-scope news-list">FAI kickstart programme </div>
+                        <div class="card-content-date style-scope news-list">Posted: 16 October 2017</div>
+                        <div class="card-content style-scope news-list">A group of students recently undertook an FAI certified coachin course under the guidance of Gary Power. The lads really enjoyed it and there was some very positive feedback.  </div>
+                        <!--
+                          image="{{item.images0}}"
+                        <div class="card-content">{{item.description}}</div>-->
+
+                        <div class="horizontal layout center-justified center wrap style-scope news-list" style="max-width:550px; min-width:200px">
+                        
+                            <div style="margin:10px;" class="style-scope news-list"><a target="_blank" class="style-scope news-list" href="https://www.uniqueschoolapp.ie/images/news/news_image1_11893.jpg"> <img class="news_image style-scope news-list" style="margin: auto;display: block;" src="https://www.uniqueschoolapp.ie/images/news/news_image1_11893.jpg"></a></div>
+                        <template is="dom-if" class="style-scope news-list"></template>
+
+    
+                            <div style="margin:10px;" class="style-scope news-list"><a target="_blank" class="style-scope news-list" href="https://www.uniqueschoolapp.ie/images/news/news_image2_11893.jpg"> <img class="news_image style-scope news-list" style="margin: auto;display: block;" src="https://www.uniqueschoolapp.ie/images/news/news_image2_11893.jpg"></a></div>
+                        <template is="dom-if" class="style-scope news-list"></template>
+
+    
+                            <div style="margin:10px;" class="style-scope news-list"><a target="_blank" class="style-scope news-list" href="https://www.uniqueschoolapp.ie/images/news/news_image3_11893.jpg"><img class="news_image style-scope news-list" style="margin: auto;display: block;" src="https://www.uniqueschoolapp.ie/images/news/news_image3_11893.jpg"></a></div>
+                        <template is="dom-if" class="style-scope news-list"></template>
+    </div>
+    <!--  <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fwww.uniqueschoolapp.ie%2Fschoolsite%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="100" height="60" style="border:none;overflow:hidden"
+                            scrolling="no" frameborder="0" allowTransparency="true"></iframe>-->
+    
+  </paper-card>
+    </div>
+    </div>
+    
+            <div style="margin:10px;" class="style-scope news-list">
+                <div class="horizontal layout center-justified center style-scope news-list">
+                    <paper-spinner-lite active="" class="style-scope news-list"></paper-spinner-lite>
+                    <paper-card class="flex-1 paperClass style-scope news-list x-scope paper-card-0" aria-label="" elevation="1">
+    
+
+    <div class="header style-scope paper-card">
+      <iron-image class="style-scope paper-card x-scope iron-image-0" hidden="">
+    
+
+    <div id="sizedImgDiv" role="img" class="style-scope iron-image" aria-label="" hidden=""></div>
+    <img id="img" class="style-scope iron-image">
+    <div id="placeholder" class="style-scope iron-image" hidden=""></div>
+  </iron-image>
+      <div class="title-text style-scope paper-card" hidden=""></div>
+    </div>
+
+    
+                        <div class="card-content-header style-scope news-list">Under 16 South East Soccer Cup</div>
+                        <div class="card-content-date style-scope news-list">Posted: 16 October 2017</div>
+                        <div class="card-content style-scope news-list">Well done to our U16 soccer team that defeated St Paul's today in the South East Cup. After falling behind after only 1 minute of play our boys showed great character to level the game early in the second half and taking the game right to St Paul's from then on.  The game went to extra time and penalties with Mount Sion progressing after 5 successful spot kicks. Well done lads!  </div>
+                        <!--
+                          image="{{item.images0}}"
+                        <div class="card-content">{{item.description}}</div>-->
+
+                        <div class="horizontal layout center-justified center wrap style-scope news-list" style="max-width:550px; min-width:200px">
+                        <template is="dom-if" class="style-scope news-list"></template>
+
+    <template is="dom-if" class="style-scope news-list"></template>
+
+    <template is="dom-if" class="style-scope news-list"></template>
+    </div>
+    <!--  <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fwww.uniqueschoolapp.ie%2Fschoolsite%2F&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="100" height="60" style="border:none;overflow:hidden"
+                            scrolling="no" frameborder="0" allowTransparency="true"></iframe>-->
+    
+  </paper-card>
+    </div>
+    </div>
+    <template is="dom-repeat" class="style-scope news-list"></template>
+    </news-list> </div>
+
+            
 </body>
 </html>
