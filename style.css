@@ -28,5 +28,9 @@ li a:hover {
 }
 
 p {
-    font: Arial;
+    font: ;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
